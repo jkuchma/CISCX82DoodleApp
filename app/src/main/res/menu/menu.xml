@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/colorId"
+        android:icon="@drawable/color_wheel"
+        android:title="@string/Color"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/saveId"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/Save"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/lineWidth"
+        android:icon="@drawable/brush_size"
+        android:title="@string/lineWidth"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/clearId"
+        android:icon="@drawable/eraser"
+        android:title="@string/clear"
+        app:showAsAction="always" />
+</menu>
