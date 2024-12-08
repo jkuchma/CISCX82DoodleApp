@@ -1,5 +1,5 @@
 # Short Description:
-This is my Doodle App which I have developed for Android devices using Android Studio. In this app, you can draw around the canvas and change the color, opacity, brush width, and clear the canvas.
+This is my Doodle App which I have developed for Android devices using Android Studio. In this app, you can draw around the canvas and change the color, opacity, brush width, invert the canvas, and clear the canvas.
 
 # How to Run:
 Pull from this repo
