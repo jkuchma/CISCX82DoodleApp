@@ -54,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
         else if (item.getItemId() == R.id.lineWidth){
             showLineWidthDialog();
         }
+        else if (item.getItemId() == R.id.invertId){
+            doodleView.invertColors();
+        }
         return super.onOptionsItemSelected(item);
     }
 

@@ -142,4 +142,22 @@ public class DoodleView extends View{
         point.x = (int) x;
         point.y = (int) y;
     }
+
+    public void invertColors(){
+        int width = bitmap.getWidth();
+        int height = bitmap.getHeight();
+
+        for (int x = 0; x < width; x++){
+            for (int y = 0; y < height; y++){
+                int pixel = bitmap.getPixel(x, y);
+                int red = 255 - Color.red(pixel);
+                int green = 255 - Color.green(pixel);
+                int blue = 255 - Color.blue(pixel);
+                int alpha = Color.alpha(pixel);
+
+                bitmap.setPixel(x,y,Color.argb(alpha,red,green,blue));
+            }
+        }
+        invalidate();
+    }
 }

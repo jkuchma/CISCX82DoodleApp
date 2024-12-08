@@ -25,4 +25,9 @@
         android:icon="@drawable/eraser"
         android:title="@string/clear"
         app:showAsAction="always" />
+    <item
+        android:id="@+id/invertId"
+        android:icon="@drawable/invert"
+        android:title="@string/clear"
+        app:showAsAction="always" />
 </menu>
