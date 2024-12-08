@@ -143,6 +143,7 @@ public class DoodleView extends View{
         point.y = (int) y;
     }
 
+    //Inverts doodles on the Canvas including background
     public void invertColors(){
         int width = bitmap.getWidth();
         int height = bitmap.getHeight();
